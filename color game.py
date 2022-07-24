@@ -3,13 +3,13 @@ import tkinter
 
 colorsList = ['red', 'blue', 'green', 'yellow', 'purple', 'brown', 'black', 'pink', 'grey', 'white']
 score = 0
-seconds = int(31)
+seconds = int(46)
 
 
 def gameplay(event):
   global seconds
 
-  if seconds == 31:
+  if seconds == 46:
     timecount()
 
   changeColor()
