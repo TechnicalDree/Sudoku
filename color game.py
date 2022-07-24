@@ -1,7 +1,7 @@
 import random
 import tkinter
 
-colorsList = ['Red', 'Blue', 'Green', 'Yellow', 'Purple', 'Brown', 'Black', 'Pink', 'Grey', 'White']
+colorsList = ['red', 'blue', 'green', 'yellow', 'purple', 'brown', 'black', 'pink', 'grey', 'white']
 score = 0
 seconds = int(31)
 
@@ -33,7 +33,7 @@ def changeColor():
   global seconds, score
 
   if seconds > 0:
-    if colorGuess.get().lower() == colorsList[0].lower():
+    if colorGuess.get() == colorsList[0]:
         score += 1
 
     colorGuess.focus_set()
